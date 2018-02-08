@@ -13,7 +13,7 @@ const DEST_PATH = path.resolve(__dirname, 'dist');
 const DEV = process.env.NODE_ENV === 'development';
 const MINIFY = process.env.MINIFY === 'true';
 
-const PUBLIC_PATH = '/';
+const PUBLIC_PATH = DEV ? '/' : '/player-necosport/';
 
 var config = {
   entry: {
