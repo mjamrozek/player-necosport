@@ -1,5 +1,25 @@
 # Player for NECOsport
 
+HTML5 video player based on React
+
+# Installation
+
+```
+npm install
+```
+
+# Linting
+
+```
+npm run lint
+```
+
+# JEST tests
+
+```
+npm run test
+```
+
 # Nightwatch tests
 
 ```
