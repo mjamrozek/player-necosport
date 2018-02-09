@@ -4,7 +4,7 @@
 
 ```
 npm run build
-cd dist/ && live--server
+cd dist/ && live-server
 npm run test-nightwatch
 ```
 
